@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niwa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./niwa-favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./niwa-favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./niwa-favicon/favicon-16x16.png">
+    <link rel="manifest" href="./niwa-favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="site-header">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <nav class="site-nav">
+                    <div class="navbar-container">
+                        <div class="hamburger-menu">
+                            <input type="checkbox" id="menu-toggle">
+                            <label for="menu-toggle" class="hamburger-lines">
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                            </label>
+                            <ul class="menu-items">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li class="button-reservation">
+                                    <a href="reservation.html" class="button">Reservations</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="site-main">
+            <div class="container">
+                <nav class="homcontact">
+                    <a href="#">Home</a> / <a href="#">Contact</a>
+                </nav>
+                <div class="row rev">
+                    <div class="col">
+                        <div class="contact">
+                            <h2>Contact:</h2>
+                            <p>Call / Whatsapp: +91 18-328 0520</p>
+                            <p>Email: izakayaniwa@gmail.com</p>
+                            <h2>Timings:</h2>
+                            <h3 class="normal">Dine in</h3>
+                            <p>Monday to Friday | 12 pm - 1:30 am</p>
+                            <p>Saturday & Sunday | 11 am - 1:30 am</p>
+                            <h3 class="normal">Delivery</h3>
+                            <p>Monday to Friday | 12 pm - 1 pm</p>
+                            <p>Saturday & Sunday | 11 am - 11 am</p>
+                            <h2>Address:</h2>
+                            <p>Izakaya Niwa</p>
+                            <p>Oasis Square, Block A-G-08, No.2, Jln PJU 1A/7, Ara Damansara, 47301</p>
+                            <p>Petaling Jaya, Selangor Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact-form">
+                            <h3 class="normal">Fill up the form below</h3>
+                            <form action="#">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                <div class="form-group">
+                                    <div>
+                                        <label for="email">Email</label><br>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div>
+                                        <label for="phone">Phone</label><br>
+                                        <input type="tel" id="phone" name="phone" required>
+                                    </div>
+                                </div>
+                                    <label for="address">Address</label>
+                                    <input type="text" id="address" name="address" required>
+
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="4" required></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+            
+                </div>
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.3687969529424!2d101.573815028056!3d3.113448192205975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4da6ce64e3e3%3A0xddeebe57fde064aa!2sIzakaya%20Niwa!5e0!3m2!1sen!2snp!4v1717994089277!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+
+                <div class="foot-adjust">
+                    <div class="foot-left">
+                        <div class="follow">
+                            <h3>Follow us</h3>
+                            <ul class="social-links">
+                                <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="foot-call">
+                            <h3 class="hide">call us at</h3>
+                            <ul>
+                                <li class="call"> <span class="hide">Call/whatsapp:</span><span class="icon-whatsapp"></span>+61 18-328 0520</li>
+                                <li class="email"><span class="hide">Email :</span><span class="icon-mail"></span> izakayaniwa@gmail.com</li>
+                            </ul>
+                        </div>
+                        <span class="copy"><span class="hide">Copyright</span> &copy; 2024 Niwa. All Rights Reserved. </span>
+                    </div>
+                    <div class="mob-top"><a href="#"><span class="icon-top"></span></a></div>
+                    <div class="quick-links">
+                        <h3 class="hide"> Quick Links</h3>
+                        <ul class='hide'>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="reservation.html">Reservations</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
